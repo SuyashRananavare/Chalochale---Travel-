@@ -1,0 +1,140 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  padding-top: 56px;
+}
+
+.navbar {
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+  z-index: 1030;
+}
+
+.navbar .btn {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.18);
+}
+
+.carousel,
+.carousel-inner,
+.carousel-item {
+  max-height: 680px;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: min(680px, 70vh);
+  min-height: 360px;
+  object-fit: cover;
+}
+
+.carousel-item::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(transparent 35%, rgba(0, 0, 0, 0.65));
+  pointer-events: none;
+}
+
+.carousel-caption {
+  z-index: 1;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.65);
+}
+
+.card {
+  border: 0;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.17);
+}
+
+.card-img-top {
+  object-fit: cover;
+}
+
+section {
+  position: relative;
+}
+
+.form-control,
+.form-select {
+  min-height: 44px;
+}
+
+footer {
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 575.98px) {
+  body {
+    padding-top: 54px;
+  }
+
+  .navbar .container-fluid {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .navbar-collapse {
+    padding: 0.75rem 0 0.5rem;
+  }
+
+  .navbar-nav {
+    gap: 0.15rem !important;
+  }
+
+  .navbar-collapse > .btn {
+    display: block;
+    margin: 0.5rem 0 0 !important;
+    text-align: center;
+  }
+
+  .carousel-item img {
+    height: 62vh;
+    min-height: 420px;
+  }
+
+  .carousel-caption {
+    right: 12%;
+    left: 12%;
+    bottom: 2.5rem;
+  }
+
+  .carousel-caption h3 {
+    font-size: 1.4rem;
+  }
+
+  .carousel-caption p {
+    font-size: 0.9rem;
+  }
+
+  .carousel-caption .btn {
+    margin-left: 0 !important;
+  }
+
+  section.py-5,
+  section.pt-5 {
+    padding-top: 2.5rem !important;
+    padding-bottom: 2.5rem !important;
+  }
+
+  .card {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+  }
+
+  .modal-dialog {
+    margin: 0.75rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .navbar-collapse > .btn + .btn {
+    margin-left: 0.5rem !important;
+  }
+}
