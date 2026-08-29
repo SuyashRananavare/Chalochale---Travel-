@@ -3,17 +3,18 @@
 
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Destination Pages</title>
+    <title>Destinations - ChaloChale Travel</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="javascript:void(0)">ChaloChale</a>
+            <a class="navbar-brand" href="index.html">ChaloChale</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -24,7 +25,7 @@
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="destination.html">Destinations</a>
+                        <a class="nav-link active" href="destination.html">Destinations</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="packages.html">Packages</a>
@@ -45,89 +46,244 @@
 
     <section class="py-5">
         <div class="container">
-            <h2 class="text-center fw-bold mb-4">Popular Destinations</h2>
+            <div class="text-center mb-5">
+                <span class="section-eyebrow">Explore The World</span>
+                <h2 class="fw-bold">Popular Destinations</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Discover amazing places from every corner of the globe</p>
+            </div>
 
             <div class="row">
 
-                <div class="col-md-4 mb-4">
+                <!-- Bali, Indonesia -->
+                <div class="col-12 col-sm-6 col-lg-4 mb-4">
                     <div class="card shadow">
-                        <img src="https://hblimg.mmtcdn.com/content/hubble/img/desttvimg/mmt/destination/m_Bali_tv_destination_img_1_l_771_1158.jpg"
-                            class="card-img-top" height="220" alt="Bali beach">
+                        <div class="card-img-top" style="background-image: url('https://hblimg.mmtcdn.com/content/hubble/img/desttvimg/mmt/destination/m_Bali_tv_destination_img_1_l_771_1158.jpg'); background-size: cover; position: relative;">
+                            <span class="badge bg-primary card-badge">Beach</span>
+                        </div>
                         <div class="card-body">
-                            <h5 class="card-title fw-bold">Bali,Indonesia</h5>
-                            <p class="card-text">Famous for its beaches, temples, and vibrant culture. A perfect mix of
-                                relaxation and
-                                adventure.</p>
-                            <a href="#" class="btn btn-primary">Explore</a>
+                            <h5 class="card-title fw-bold">Bali, Indonesia</h5>
+                            <div class="card-rating">★★★★☆ 4.8 (2,340 reviews)</div>
+                            <p class="card-price">From ₹24,999</p>
+                            <p class="card-text small">Famous for beaches, temples, and vibrant culture. Perfect mix of relaxation and adventure.</p>
+                            <a href="#" class="btn btn-primary w-100">Explore</a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-4 mb-4">
+                <!-- Paris, France -->
+                <div class="col-12 col-sm-6 col-lg-4 mb-4">
                     <div class="card shadow">
-                        <img src="https://cdn.britannica.com/31/255531-050-B7E07090/eiffel-tower-paris-france-champ-de-mars-view.jpg"
-                            class="card-img-top" height="220" alt="Eiffel Tower in Paris">
+                        <div class="card-img-top" style="background-image: url('https://cdn.britannica.com/31/255531-050-B7E07090/eiffel-tower-paris-france-champ-de-mars-view.jpg'); background-size: cover; position: relative;">
+                            <span class="badge bg-primary card-badge">City</span>
+                        </div>
                         <div class="card-body">
-                            <h5 class="card-title fw-bold">Paris, France </h5>
-                            <p class="card-text">Enjoy beaches, nightlife, and water sports.</p>
-                            <a href="#" class="btn btn-primary">Explore</a>
+                            <h5 class="card-title fw-bold">Paris, France</h5>
+                            <div class="card-rating">★★★★★ 4.9 (3,120 reviews)</div>
+                            <p class="card-price">From ₹32,499</p>
+                            <p class="card-text small">Explore romantic streets, iconic landmarks, and world-class cuisine in the City of Light.</p>
+                            <a href="#" class="btn btn-primary w-100">Explore</a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-4 mb-4">
+                <!-- Dubai, UAE -->
+                <div class="col-12 col-sm-6 col-lg-4 mb-4">
                     <div class="card shadow">
-                        <img src="https://res.klook.com/image/upload/fl_lossy.progressive,q_60/v1760437946/destination/vovea0rrgjojr9pgdp7b.jpg"
-                            class="card-img-top" height="220" alt="Dubai skyline">
+                        <div class="card-img-top" style="background-image: url('https://res.klook.com/image/upload/fl_lossy.progressive,q_60/v1760437946/destination/vovea0rrgjojr9pgdp7b.jpg'); background-size: cover; position: relative;">
+                            <span class="badge bg-info card-badge">Luxury</span>
+                        </div>
                         <div class="card-body">
-                            <h5 class="card-title fw-bold">Dubai, UAE </h5>
-                            <p class="card-text">Explore forts, palaces, and Rajasthan culture.</p>
-                            <a href="#" class="btn btn-primary">Explore</a>
+                            <h5 class="card-title fw-bold">Dubai, UAE</h5>
+                            <div class="card-rating">★★★★☆ 4.7 (1,890 reviews)</div>
+                            <p class="card-price">From ₹28,999</p>
+                            <p class="card-text small">Experience luxury shopping, stunning architecture, and desert adventures in modern metropolis.</p>
+                            <a href="#" class="btn btn-primary w-100">Explore</a>
                         </div>
                     </div>
                 </div>
 
-                 <div class="col-md-4 mb-4">
+                <!-- Tokyo, Japan -->
+                <div class="col-12 col-sm-6 col-lg-4 mb-4">
                     <div class="card shadow">
-                        <img src="https://plus.unsplash.com/premium_photo-1661914240950-b0124f20a5c1?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dG9reW98ZW58MHx8MHx8fDA%3D";
-                            class="card-img-top" height="220" alt="Bali beach">
+                        <div class="card-img-top" style="background-image: url('https://plus.unsplash.com/premium_photo-1661914240950-b0124f20a5c1?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dG9reW98ZW58MHx8MHx8fDA%3D'); background-size: cover; position: relative;">
+                            <span class="badge bg-primary card-badge">City</span>
+                        </div>
                         <div class="card-body">
                             <h5 class="card-title fw-bold">Tokyo, Japan</h5>
-                            <p class="card-text">A bustling metropolis blending neon-lit skyscrapers with serene temples and cherry blossoms.</p>
-                            <a href="#" class="btn btn-primary">Explore</a>
-                        </div>
-                    </div>
-            </div>
-
-             <div class="col-md-4 mb-4">
-                    <div class="card shadow">
-                        <img src="https://media.istockphoto.com/id/2163327740/photo/new-york-new-york-usa-in-autumn.jpg?s=612x612&w=0&k=20&c=3o09pDR8ZlP1EJnEK5v6x8U3tQTGcUOryyeQehtOKyo="
-                            class="card-img-top" height="220" alt="Dubai skyline">
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold">New York City, USA</h5>
-                            <p class="card-text"> The city that never sleeps, famous for Central Park, and iconic landmarks like the Statue of Liberty.</p>
-                            <a href="#" class="btn btn-primary">Explore</a>
+                            <div class="card-rating">★★★★★ 4.9 (2,678 reviews)</div>
+                            <p class="card-price">From ₹35,999</p>
+                            <p class="card-text small">Bustling metropolis blending neon-lit skyscrapers with serene temples and cherry blossoms.</p>
+                            <a href="#" class="btn btn-primary w-100">Explore</a>
                         </div>
                     </div>
                 </div>
 
-                 <div class="col-md-4 mb-4">
+                <!-- New York City, USA -->
+                <div class="col-12 col-sm-6 col-lg-4 mb-4">
                     <div class="card shadow">
-                        <img src="https://images.unsplash.com/photo-1573843981267-be1999ff37cd?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWFsZGl2ZXMlMjBiZWFjaHxlbnwwfHwwfHx8MA%3D%3D"
-                            class="card-img-top" height="220" alt="Dubai skyline">
+                        <div class="card-img-top" style="background-image: url('https://media.istockphoto.com/id/2163327740/photo/new-york-new-york-usa-in-autumn.jpg?s=612x612&w=0&k=20&c=3o09pDR8ZlP1EJnEK5v6x8U3tQTGcUOryyeQehtOKyo='); background-size: cover; position: relative;">
+                            <span class="badge bg-primary card-badge">City</span>
+                        </div>
                         <div class="card-body">
-                            <h5 class="card-title fw-bold"> Maldives</h5>
-                            <p class="card-text"> The city that never sleeps, famous for Central Park, and iconic landmarks like the Statue of Liberty.</p>
-                            <a href="#" class="btn btn-primary">Explore</a>
+                            <h5 class="card-title fw-bold">New York City, USA</h5>
+                            <div class="card-rating">★★★★☆ 4.6 (2,945 reviews)</div>
+                            <p class="card-price">From ₹29,999</p>
+                            <p class="card-text small">The city that never sleeps with Central Park and iconic landmarks like the Statue of Liberty.</p>
+                            <a href="#" class="btn btn-primary w-100">Explore</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Maldives -->
+                <div class="col-12 col-sm-6 col-lg-4 mb-4">
+                    <div class="card shadow">
+                        <div class="card-img-top" style="background-image: url('https://images.unsplash.com/photo-1573843981267-be1999ff37cd?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWFsZGl2ZXMlMjBiZWFjaHxlbnwwfHwwfHx8MA%3D%3D'); background-size: cover; position: relative;">
+                            <span class="badge bg-primary card-badge">Beach</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Maldives</h5>
+                            <div class="card-rating">★★★★★ 5.0 (1,823 reviews)</div>
+                            <p class="card-price">From ₹38,999</p>
+                            <p class="card-text small">Tropical paradise with crystal-clear waters, luxury resorts, and pristine white-sand beaches.</p>
+                            <a href="#" class="btn btn-primary w-100">Explore</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Santorini, Greece -->
+                <div class="col-12 col-sm-6 col-lg-4 mb-4">
+                    <div class="card shadow">
+                        <div class="card-img-top" style="background-image: url('https://source.unsplash.com/800x600/?santorini'); background-size: cover; position: relative;">
+                            <span class="badge bg-danger card-badge">Romance</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Santorini, Greece</h5>
+                            <div class="card-rating">★★★★★ 4.9 (2,112 reviews)</div>
+                            <p class="card-price">From ₹31,499</p>
+                            <p class="card-text small">Stunning sunsets, whitewashed buildings, and romantic atmosphere on volcanic cliffs.</p>
+                            <a href="#" class="btn btn-primary w-100">Explore</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bangkok, Thailand -->
+                <div class="col-12 col-sm-6 col-lg-4 mb-4">
+                    <div class="card shadow">
+                        <div class="card-img-top" style="background-image: url('https://source.unsplash.com/800x600/?bangkok'); background-size: cover; position: relative;">
+                            <span class="badge bg-success card-badge">Culture</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Bangkok, Thailand</h5>
+                            <div class="card-rating">★★★★☆ 4.5 (1,734 reviews)</div>
+                            <p class="card-price">From ₹16,999</p>
+                            <p class="card-text small">Vibrant street food, ancient temples, and bustling night markets in Southeast Asia.</p>
+                            <a href="#" class="btn btn-primary w-100">Explore</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Swiss Alps, Switzerland -->
+                <div class="col-12 col-sm-6 col-lg-4 mb-4">
+                    <div class="card shadow">
+                        <div class="card-img-top" style="background-image: url('https://source.unsplash.com/800x600/?alps'); background-size: cover; position: relative;">
+                            <span class="badge bg-warning card-badge">Adventure</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Swiss Alps, Switzerland</h5>
+                            <div class="card-rating">★★★★★ 4.8 (2,456 reviews)</div>
+                            <p class="card-price">From ₹42,999</p>
+                            <p class="card-text small">Skiing, hiking, and picturesque mountain villages in Europe's most stunning alpine region.</p>
+                            <a href="#" class="btn btn-primary w-100">Explore</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Kyoto, Japan -->
+                <div class="col-12 col-sm-6 col-lg-4 mb-4">
+                    <div class="card shadow">
+                        <div class="card-img-top" style="background-image: url('https://source.unsplash.com/800x600/?kyoto'); background-size: cover; position: relative;">
+                            <span class="badge bg-success card-badge">Culture</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Kyoto, Japan</h5>
+                            <div class="card-rating">★★★★★ 4.9 (2,834 reviews)</div>
+                            <p class="card-price">From ₹28,499</p>
+                            <p class="card-text small">Ancient temples, traditional gardens, and geisha culture in Japan's spiritual heartland.</p>
+                            <a href="#" class="btn btn-primary w-100">Explore</a>
                         </div>
                     </div>
                 </div>
         </div>
     </section>
 
-     <footer class="bg-dark text-white text-center py-3">
-  <p class="mb-0">© 2026 ChaloChale Travel App | Designed with Bootstrap</p>
-</footer>
+  <footer class="bg-dark text-white py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-3 mb-4 mb-md-0">
+          <h5 class="fw-bold mb-3">ChaloChale</h5>
+          <p class="text-muted small">Your trusted travel partner for unforgettable adventures around the world.</p>
+        </div>
+
+        <div class="col-12 col-md-3 mb-4 mb-md-0">
+          <h5 class="fw-bold mb-3">Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="index.html" class="footer-link">Home</a></li>
+            <li><a href="destination.html" class="footer-link">Destinations</a></li>
+            <li><a href="packages.html" class="footer-link">Packages</a></li>
+            <li><a href="booking.html" class="footer-link">Booking</a></li>
+            <li><a href="contact.html" class="footer-link">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="col-12 col-md-3 mb-4 mb-md-0">
+          <h5 class="fw-bold mb-3">Contact Info</h5>
+          <div class="footer-info">
+            <i class="bi bi-geo-alt footer-icon"></i>
+            <div>
+              <p class="small mb-0">123 Travel Street</p>
+              <p class="small">New Delhi, India</p>
+            </div>
+          </div>
+          <div class="footer-info">
+            <i class="bi bi-telephone footer-icon"></i>
+            <p class="small mb-0">+91 (0) 9876-543-210</p>
+          </div>
+          <div class="footer-info">
+            <i class="bi bi-envelope footer-icon"></i>
+            <p class="small mb-0">info@chalochale.com</p>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-3">
+          <h5 class="fw-bold mb-3">Follow Us</h5>
+          <div class="social-links mb-4">
+            <a href="https://facebook.com" target="_blank" title="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://twitter.com" target="_blank" title="Twitter"><i class="bi bi-twitter"></i></a>
+            <a href="https://instagram.com" target="_blank" title="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://youtube.com" target="_blank" title="YouTube"><i class="bi bi-youtube"></i></a>
+          </div>
+          <h6 class="fw-bold mb-2">Hours</h6>
+          <p class="small text-muted mb-0">Mon - Fri: 9:00 AM - 6:00 PM</p>
+          <p class="small text-muted">Sat - Sun: 10:00 AM - 4:00 PM</p>
+        </div>
+      </div>
+
+      <hr class="my-4 bg-secondary">
+
+      <div class="row">
+        <div class="col-12 text-center">
+          <p class="mb-0 small text-muted">© 2026 ChaloChale Travel App. All rights reserved. | Designed with <i class="bi bi-heart-fill text-danger"></i> by ChaloChale Team</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop">
+    <i class="bi bi-chevron-up"></i>
+  </button>
+
+  <script src="js/script.js"></script>
 </body>
 
 </html>

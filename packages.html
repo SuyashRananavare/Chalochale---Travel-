@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Packages - ChaloChale Travel</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">ChaloChale</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav ms-auto d-flex gap-3">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="destination.html">Destinations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="packages.html">Packages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="booking.html">Booking</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <a href="signup.html" class="btn btn-warning ms-lg-3">Signup</a>
+                <a href="login.html" class="btn btn-primary ms-lg-3">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="py-5 bg-light text-center mt-5">
+        <div class="container">
+            <span class="section-eyebrow">Best Deals</span>
+            <h1 class="fw-bold">Travel Packages</h1>
+            <div class="section-divider mx-auto"></div>
+            <p class="lead mt-3">Explore our amazing travel packages and book your next adventure</p>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="py-4">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h5 class="mb-3">Filter by Category</h5>
+                <div>
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="beach">Beach</button>
+                    <button class="filter-btn" data-filter="mountain">Mountain</button>
+                    <button class="filter-btn" data-filter="heritage">Heritage</button>
+                    <button class="filter-btn" data-filter="adventure">Adventure</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages Grid -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-4 mb-4 package-card" data-category="beach">
+                    <div class="card shadow h-100">
+                        <div class="card-img-top" style="background-image: url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?fm=jpg&q=60&w=3000'); background-size: cover; position: relative;">
+                            <span class="badge bg-primary card-badge">Beach</span>
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold">Goa Beach Package</h5>
+                            <div class="card-rating">★★★★☆ 4.5 (892 reviews)</div>
+                            <p class="text-muted small mb-2"><i class="bi bi-calendar3"></i> 5 Days / 4 Nights</p>
+                            <p class="card-text flex-grow-1">Enjoy golden beaches, water sports, and vibrant nightlife in paradise.</p>
+                            <h4 class="card-price mb-3">₹15,999</h4>
+                            <a href="booking.html?destination=Goa" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Manali Adventure Package -->
+                <div class="col-12 col-sm-6 col-lg-4 mb-4 package-card" data-category="mountain,adventure">
+                    <div class="card shadow h-100">
+                        <div class="card-img-top" style="background-image: url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?fm=jpg&q=60&w=3000'); background-size: cover; position: relative;">
+                            <span class="badge bg-warning card-badge">Adventure</span>
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold">Manali Adventure Package</h5>
+                            <div class="card-rating">★★★★★ 4.9 (1,256 reviews)</div>
+                            <p class="text-muted small mb-2"><i class="bi bi-calendar3"></i> 6 Days / 5 Nights</p>
+                            <p class="card-text flex-grow-1">Trek through scenic valleys, paragliding, and mountain adventures await.</p>
+                            <h4 class="card-price mb-3">₹18,499</h4>
+                            <a href="booking.html?destination=Manali" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Kerala Backwater Package -->
+                <div class="col-12 col-sm-6 col-lg-4 mb-4 package-card" data-category="beach">
+                    <div class="card shadow h-100">
+                        <div class="card-img-top" style="background-image: url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?fm=jpg&q=60&w=3000'); background-size: cover; position: relative;">
+                            <span class="badge bg-primary card-badge">Beach</span>
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold">Kerala Backwater Package</h5>
+                            <div class="card-rating">★★★★☆ 4.6 (743 reviews)</div>
+                            <p class="text-muted small mb-2"><i class="bi bi-calendar3"></i> 4 Days / 3 Nights</p>
+                            <p class="card-text flex-grow-1">Cruise through serene backwaters and experience tropical tranquility.</p>
+                            <h4 class="card-price mb-3">₹12,999</h4>
+                            <a href="booking.html?destination=Kerala" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Rajasthan Heritage Package -->
+                <div class="col-12 col-sm-6 col-lg-4 mb-4 package-card" data-category="heritage,adventure">
+                    <div class="card shadow h-100">
+                        <div class="card-img-top" style="background-image: url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?fm=jpg&q=60&w=3000'); background-size: cover; position: relative;">
+                            <span class="badge bg-success card-badge">Heritage</span>
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold">Rajasthan Heritage Package</h5>
+                            <div class="card-rating">★★★★★ 4.8 (1,567 reviews)</div>
+                            <p class="text-muted small mb-2"><i class="bi bi-calendar3"></i> 7 Days / 6 Nights</p>
+                            <p class="card-text flex-grow-1">Explore magnificent forts, palaces, and ancient temples of Rajasthan.</p>
+                            <h4 class="card-price mb-3">₹22,499</h4>
+                            <a href="booking.html?destination=Jaipur" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Andaman Islands Package -->
+                <div class="col-12 col-sm-6 col-lg-4 mb-4 package-card" data-category="beach,adventure">
+                    <div class="card shadow h-100">
+                        <div class="card-img-top" style="background-image: url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?fm=jpg&q=60&w=3000'); background-size: cover; position: relative;">
+                            <span class="badge bg-primary card-badge">Beach</span>
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold">Andaman Islands Package</h5>
+                            <div class="card-rating">★★★★★ 4.9 (834 reviews)</div>
+                            <p class="text-muted small mb-2"><i class="bi bi-calendar3"></i> 5 Days / 4 Nights</p>
+                            <p class="card-text flex-grow-1">Island hopping, snorkeling, and pristine beaches with crystal clear waters.</p>
+                            <h4 class="card-price mb-3">₹19,999</h4>
+                            <a href="booking.html?destination=Andaman" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Himachal Snow Trip Package -->
+                <div class="col-12 col-sm-6 col-lg-4 mb-4 package-card" data-category="mountain,adventure">
+                    <div class="card shadow h-100">
+                        <div class="card-img-top" style="background-image: url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?fm=jpg&q=60&w=3000'); background-size: cover; position: relative;">
+                            <span class="badge bg-warning card-badge">Adventure</span>
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold">Himachal Snow Adventure</h5>
+                            <div class="card-rating">★★★★★ 4.8 (1,123 reviews)</div>
+                            <p class="text-muted small mb-2"><i class="bi bi-calendar3"></i> 6 Days / 5 Nights</p>
+                            <p class="card-text flex-grow-1">Skiing, snowboarding, and winter sports in the majestic Himalayan peaks.</p>
+                            <h4 class="card-price mb-3">₹21,499</h4>
+                            <a href="booking.html?destination=Himachal" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-3 mb-4 mb-md-0">
+                    <h5 class="fw-bold mb-3">ChaloChale</h5>
+                    <p class="text-muted small">Your trusted travel partner for unforgettable adventures around the world.</p>
+                </div>
+
+                <div class="col-12 col-md-3 mb-4 mb-md-0">
+                    <h5 class="fw-bold mb-3">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="footer-link">Home</a></li>
+                        <li><a href="destination.html" class="footer-link">Destinations</a></li>
+                        <li><a href="packages.html" class="footer-link">Packages</a></li>
+                        <li><a href="booking.html" class="footer-link">Booking</a></li>
+                        <li><a href="contact.html" class="footer-link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-md-3 mb-4 mb-md-0">
+                    <h5 class="fw-bold mb-3">Contact Info</h5>
+                    <div class="footer-info">
+                        <i class="bi bi-geo-alt footer-icon"></i>
+                        <div>
+                            <p class="small mb-0">123 Travel Street</p>
+                            <p class="small">New Delhi, India</p>
+                        </div>
+                    </div>
+                    <div class="footer-info">
+                        <i class="bi bi-telephone footer-icon"></i>
+                        <p class="small mb-0">+91 (0) 9876-543-210</p>
+                    </div>
+                    <div class="footer-info">
+                        <i class="bi bi-envelope footer-icon"></i>
+                        <p class="small mb-0">info@chalochale.com</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-3">
+                    <h5 class="fw-bold mb-3">Follow Us</h5>
+                    <div class="social-links mb-4">
+                        <a href="https://facebook.com" target="_blank" title="Facebook"><i class="bi bi-facebook"></i></a>
+                        <a href="https://twitter.com" target="_blank" title="Twitter"><i class="bi bi-twitter"></i></a>
+                        <a href="https://instagram.com" target="_blank" title="Instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="https://youtube.com" target="_blank" title="YouTube"><i class="bi bi-youtube"></i></a>
+                    </div>
+                    <h6 class="fw-bold mb-2">Hours</h6>
+                    <p class="small text-muted mb-0">Mon - Fri: 9:00 AM - 6:00 PM</p>
+                    <p class="small text-muted">Sat - Sun: 10:00 AM - 4:00 PM</p>
+                </div>
+            </div>
+
+            <hr class="my-4 bg-secondary">
+
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="mb-0 small text-muted">© 2026 ChaloChale Travel App. All rights reserved. | Designed with <i class="bi bi-heart-fill text-danger"></i> by ChaloChale Team</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop">
+        <i class="bi bi-chevron-up"></i>
+    </button>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

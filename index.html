@@ -3,17 +3,18 @@
 
 <head>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>ChaloChale - Your Trusted Travel Partner</title>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="javascript:void(0)">ChaloChale</a>
+      <a class="navbar-brand" href="index.html">ChaloChale</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -21,7 +22,7 @@
       <div class="collapse navbar-collapse" id="mynavbar">
         <ul class="navbar-nav ms-auto d-flex gap-3">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link active" href="index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="destination.html">Destinations</a>
@@ -58,34 +59,31 @@
       <div class="carousel-item active">
         <img
           src="https://images.news18.com/webstories/uploads/2024/07/image-2024-07-f7a2a17a0508340295d1e0715650c808.png"
-          alt="Los Angeles" class="d-block" style="width:100%">
+          alt="Explore Beautiful Beaches" class="d-block img-fluid">
         <div class="carousel-caption">
           <h3>Explore Beautiful Beaches</h3>
-          <p> Plan your next vacation with ChaloChale</p>
-          <button class="btn btn-primary ms-3" type="button">Explore Now</button>
-
+          <p>Plan your next vacation with ChaloChale</p>
+          <a href="destination.html" class="btn btn-primary">Explore Now</a>
         </div>
       </div>
       <div class="carousel-item">
         <img
           src="https://instatravelstyle.com/wp-content/uploads/2023/10/Trekking-in-the-Himalayas-A-Soul-Stirring-Adventure-in-Bhutans-Pristine-Mountains.jpg"
-          alt="Chicago" class="d-block" style="width:100%">
+          alt="Adventure in mountains" class="d-block img-fluid">
         <div class="carousel-caption">
           <h3>Adventure in mountains</h3>
-          <p> Discover trekking and hiking packages</p>
-          <button class="btn btn-primary ms-3" type="button">View Packages</button>
-
+          <p>Discover trekking and hiking packages</p>
+          <a href="packages.html" class="btn btn-primary">View Packages</a>
         </div>
       </div>
       <div class="carousel-item">
         <img
           src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D"
-          alt="New York" class="d-block" style="width:100%">
+          alt="Enjoy City Towers" class="d-block img-fluid">
         <div class="carousel-caption">
           <h3>Enjoy City Towers</h3>
-          <p> Book affordable city travel plans</p>
-          <button class="btn btn-primary ms-3" type="button"> Book Trip</button>
-
+          <p>Book affordable city travel plans</p>
+          <a href="booking.html" class="btn btn-primary">Book Trip</a>
         </div>
       </div>
     </div>
@@ -105,24 +103,29 @@
       <!-- Services Section -->
       <section class="py-5 bg-light">
         <div class="container">
-          <h2 class="text-center fw-bold mb-4">Why Choose ChaloChale</h2>
+          <div class="text-center">
+            <span class="section-eyebrow">Why Travel With Us</span>
+            <h2 class="fw-bold">Why Choose ChaloChale</h2>
+            <div class="section-divider"></div>
+            <p class="section-subtitle">Experience hassle-free travel with our expert planning and 24/7 support</p>
+          </div>
 
-          <div class="row text-center">
+      <div class="row text-center">
 
-            <div class="col-md-4 mb-4">
-              <i class="fa-solid fa-plane fa-3x text-primary mb-3"></i>
+            <div class="col-12 col-sm-6 col-lg-4 mb-4">
+              <i class="bi bi-airplane fa-3x text-primary mb-3" style="font-size: 2.5rem;"></i>
               <h5 class="fw-bold">Easy Booking</h5>
               <p>Book travel packages quickly with our simple booking system.</p>
             </div>
 
-            <div class="col-md-4 mb-4">
-              <i class="fa-solid fa-hotel fa-3x text-success mb-3"></i>
+            <div class="col-12 col-sm-6 col-lg-4 mb-4">
+              <i class="bi bi-building fa-3x text-success mb-3" style="font-size: 2.5rem;"></i>
               <h5 class="fw-bold">Best Hotels</h5>
               <p>We provide comfortable hotel stays at affordable prices.</p>
             </div>
 
-            <div class="col-md-4 mb-4">
-              <i class="fa-solid fa-headset fa-3x text-warning mb-3"></i>
+            <div class="col-12 col-sm-6 col-lg-4 mb-4">
+              <i class="bi bi-headset fa-3x text-warning mb-3" style="font-size: 2.5rem;"></i>
               <h5 class="fw-bold">24/7 Support</h5>
               <p>Our travel support team is available anytime for assistance.</p>
             </div>
@@ -136,46 +139,56 @@
   <!-- Destinations Section -->
   <section class="py-5">
     <div class="container">
-      <h2 class="text-center fw-bold mb-4">Popular Destinations</h2>
+      <div class="text-center mb-5">
+        <span class="section-eyebrow">Our Destinations</span>
+        <h2 class="fw-bold">Popular Destinations</h2>
+        <div class="section-divider"></div>
+        <p class="section-subtitle">Discover breathtaking places from around the world</p>
+      </div>
 
       <div class="row">
 
-        <div class="col-md-4 mb-4">
+        <div class="col-12 col-sm-6 col-lg-4 mb-4">
           <div class="card shadow">
-            <img
-              src="https://hblimg.mmtcdn.com/content/hubble/img/desttvimg/mmt/destination/m_Bali_tv_destination_img_1_l_771_1158.jpg"
-              class="card-img-top" height="220" alt="Bali beach">
+            <div class="card-img-top" style="background-image: url('https://hblimg.mmtcdn.com/content/hubble/img/desttvimg/mmt/destination/m_Bali_tv_destination_img_1_l_771_1158.jpg'); background-size: cover; position: relative;">
+              <span class="badge bg-primary card-badge">Beach</span>
+            </div>
             <div class="card-body">
-              <h5 class="card-title fw-bold">Bali,Indonesia</h5>
-              <p class="card-text">Famous for its beaches, temples, and vibrant culture. A perfect mix of relaxation and
-                adventure.</p>
-              <a href="#" class="btn btn-primary">Explore</a>
+              <h5 class="card-title fw-bold">Bali, Indonesia</h5>
+              <div class="card-rating">★★★★☆ 4.8 (2,340 reviews)</div>
+              <p class="card-price">From ₹24,999</p>
+              <p class="card-text">Famous for its beaches, temples, and vibrant culture. A perfect mix of relaxation and adventure.</p>
+              <a href="destination.html" class="btn btn-primary">Explore</a>
             </div>
           </div>
         </div>
 
-        <div class="col-md-4 mb-4">
+        <div class="col-12 col-sm-6 col-lg-4 mb-4">
           <div class="card shadow">
-            <img
-              src="https://cdn.britannica.com/31/255531-050-B7E07090/eiffel-tower-paris-france-champ-de-mars-view.jpg"
-              class="card-img-top" height="220" alt="Eiffel Tower in Paris">
+            <div class="card-img-top" style="background-image: url('https://cdn.britannica.com/31/255531-050-B7E07090/eiffel-tower-paris-france-champ-de-mars-view.jpg'); background-size: cover; position: relative;">
+              <span class="badge bg-primary card-badge">City</span>
+            </div>
             <div class="card-body">
-              <h5 class="card-title fw-bold">Paris, France </h5>
-              <p class="card-text">Enjoy beaches, nightlife, and water sports.</p>
-              <a href="#" class="btn btn-primary">Explore</a>
+              <h5 class="card-title fw-bold">Paris, France</h5>
+              <div class="card-rating">★★★★★ 4.9 (3,120 reviews)</div>
+              <p class="card-price">From ₹32,499</p>
+              <p class="card-text">Explore romantic streets, iconic landmarks, and world-class cuisine in the City of Light.</p>
+              <a href="destination.html" class="btn btn-primary">Explore</a>
             </div>
           </div>
         </div>
 
-        <div class="col-md-4 mb-4">
+        <div class="col-12 col-sm-6 col-lg-4 mb-4">
           <div class="card shadow">
-            <img
-              src="https://res.klook.com/image/upload/fl_lossy.progressive,q_60/v1760437946/destination/vovea0rrgjojr9pgdp7b.jpg"
-              class="card-img-top" height="220" alt="Dubai skyline">
+            <div class="card-img-top" style="background-image: url('https://res.klook.com/image/upload/fl_lossy.progressive,q_60/v1760437946/destination/vovea0rrgjojr9pgdp7b.jpg'); background-size: cover; position: relative;">
+              <span class="badge bg-info card-badge">Luxury</span>
+            </div>
             <div class="card-body">
-              <h5 class="card-title fw-bold">Dubai, UAE </h5>
-              <p class="card-text">Explore forts, palaces, and Rajasthan culture.</p>
-              <a href="#" class="btn btn-primary">Explore</a>
+              <h5 class="card-title fw-bold">Dubai, UAE</h5>
+              <div class="card-rating">★★★★☆ 4.7 (1,890 reviews)</div>
+              <p class="card-price">From ₹28,999</p>
+              <p class="card-text">Experience luxury shopping, stunning architecture, and desert adventures in the modern metropolis.</p>
+              <a href="destination.html" class="btn btn-primary">Explore</a>
             </div>
           </div>
         </div>
@@ -189,44 +202,49 @@
   <!-- Packages Section -->
   <section class="py-5 bg-light">
     <div class="container">
-      <h2 class="text-center fw-bold mb-4">Featured Packages</h2>
+      <div class="text-center mb-5">
+        <span class="section-eyebrow">Best Travel Deals</span>
+        <h2 class="fw-bold">Featured Packages</h2>
+        <div class="section-divider"></div>
+        <p class="section-subtitle">Choose from our curated collection of unforgettable travel experiences</p>
+      </div>
       <div class="row">
 
-        <div class="col-md-4 mb-4">
+        <div class="col-12 col-sm-6 col-lg-4 mb-4">
           <div class="card shadow">
             <div class="card-body">
-              <h5 class="fw-bold">Goa Beach Package</h5>
-              <p>Duration: 5 Days / 4 Nights</p>
-              <h4 class="text-success fw-bold">₹15,999</h4>
-              <button class="btn btn-primary w-100 mt-2" data-bs-toggle="modal" data-bs-target="#bookingModal">
-                Book Now
-              </button>
+              <h5 class="card-title fw-bold">Goa Beach Package</h5>
+              <div class="card-rating">★★★★☆ 4.5 (892 reviews)</div>
+              <p class="text-muted small"><i class="bi bi-calendar3"></i> 5 Days / 4 Nights</p>
+              <p class="card-text small">Golden beaches, water sports, and vibrant nightlife await you in paradise.</p>
+              <h4 class="card-price">From ₹15,999</h4>
+              <a href="booking.html?destination=Goa" class="btn btn-primary w-100">Book Now</a>
             </div>
           </div>
         </div>
 
-        <div class="col-md-4 mb-4">
+        <div class="col-12 col-sm-6 col-lg-4 mb-4">
           <div class="card shadow">
             <div class="card-body">
-              <h5 class="fw-bold">Manali Adventure Package</h5>
-              <p>Duration: 6 Days / 5 Nights</p>
-              <h4 class="text-success fw-bold">₹18,499</h4>
-              <button class="btn btn-primary w-100 mt-2" data-bs-toggle="modal" data-bs-target="#bookingModal">
-                Book Now
-              </button>
+              <h5 class="card-title fw-bold">Manali Adventure Package</h5>
+              <div class="card-rating">★★★★★ 4.9 (1,256 reviews)</div>
+              <p class="text-muted small"><i class="bi bi-calendar3"></i> 6 Days / 5 Nights</p>
+              <p class="card-text small">Trek scenic valleys, paragliding, and mountain adventures in the Himalayas.</p>
+              <h4 class="card-price">From ₹18,499</h4>
+              <a href="booking.html?destination=Manali" class="btn btn-primary w-100">Book Now</a>
             </div>
           </div>
         </div>
 
-        <div class="col-md-4 mb-4">
+        <div class="col-12 col-sm-6 col-lg-4 mb-4">
           <div class="card shadow">
             <div class="card-body">
-              <h5 class="fw-bold">Kerala Backwater Package</h5>
-              <p>Duration: 4 Days / 3 Nights</p>
-              <h4 class="text-success fw-bold">₹12,999</h4>
-              <button class="btn btn-primary w-100 mt-2" data-bs-toggle="modal" data-bs-target="#bookingModal">
-                Book Now
-              </button>
+              <h5 class="card-title fw-bold">Kerala Backwater Package</h5>
+              <div class="card-rating">★★★★☆ 4.6 (743 reviews)</div>
+              <p class="text-muted small"><i class="bi bi-calendar3"></i> 4 Days / 3 Nights</p>
+              <p class="card-text small">Cruise serene backwaters and experience tropical tranquility in God's Own Country.</p>
+              <h4 class="card-price">From ₹12,999</h4>
+              <a href="booking.html?destination=Kerala" class="btn btn-primary w-100">Book Now</a>
             </div>
           </div>
         </div>
@@ -235,50 +253,78 @@
     </div>
   </section>
 
-  <div class="modal" id="bookingModal">
-    <div class="modal-dialog">
-      <div class="modal-content">
 
-        <!-- Modal Header -->
-        <div class="modal-header bg-primary text-white">
-          <h4 class="modal-title">Book Your Trip</h4>
-          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+  <footer class="bg-dark text-white py-5">
+    <div class="container">
+      <div class="row">
+        <!-- Brand & About -->
+        <div class="col-12 col-md-3 mb-4 mb-md-0">
+          <h5 class="fw-bold mb-3">ChaloChale</h5>
+          <p class="text-muted small">Your trusted travel partner for unforgettable adventures around the world.</p>
         </div>
 
-        <!-- Modal body -->
-        <div class="modal-body">
-          <form action="/action_page.php">
-            <div class="mb-3 mt-3">
-              <label for="name" class="form-label"> Full Name</label>
-              <input type="email" class="form-control" id="name" placeholder="Enter your name" name="full-name">
-            </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">Email</label>
-              <input type="password" class="form-control" id="email" placeholder="Enter email" name="email">
-            </div>
-
-            <div class="mb-3">
-              <label for="exampleFormControlTextarea1" class="form-label"> Message</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Any Special request "></textarea>
-            </div>
-          </form>
+        <!-- Quick Links -->
+        <div class="col-12 col-md-3 mb-4 mb-md-0">
+          <h5 class="fw-bold mb-3">Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="index.html" class="footer-link">Home</a></li>
+            <li><a href="destination.html" class="footer-link">Destinations</a></li>
+            <li><a href="packages.html" class="footer-link">Packages</a></li>
+            <li><a href="booking.html" class="footer-link">Booking</a></li>
+            <li><a href="contact.html" class="footer-link">Contact</a></li>
+          </ul>
         </div>
 
-        <!-- Modal footer -->
-        <div class="modal-footer">
-          <button type="button" class="btn btn-success" data-bs-dismiss="modal">Submit Booking request</button>
+        <!-- Contact Info -->
+        <div class="col-12 col-md-3 mb-4 mb-md-0">
+          <h5 class="fw-bold mb-3">Contact Info</h5>
+          <div class="footer-info">
+            <i class="bi bi-geo-alt footer-icon"></i>
+            <div>
+              <p class="small mb-0">123 Travel Street</p>
+              <p class="small">New Delhi, India</p>
+            </div>
+          </div>
+          <div class="footer-info">
+            <i class="bi bi-telephone footer-icon"></i>
+            <p class="small mb-0">+91 (0) 9876-543-210</p>
+          </div>
+          <div class="footer-info">
+            <i class="bi bi-envelope footer-icon"></i>
+            <p class="small mb-0">info@chalochale.com</p>
+          </div>
         </div>
 
+        <!-- Social & Business Hours -->
+        <div class="col-12 col-md-3">
+          <h5 class="fw-bold mb-3">Follow Us</h5>
+          <div class="social-links mb-4">
+            <a href="https://facebook.com" target="_blank" title="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://twitter.com" target="_blank" title="Twitter"><i class="bi bi-twitter"></i></a>
+            <a href="https://instagram.com" target="_blank" title="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://youtube.com" target="_blank" title="YouTube"><i class="bi bi-youtube"></i></a>
+          </div>
+          <h6 class="fw-bold mb-2">Hours</h6>
+          <p class="small text-muted mb-0">Mon - Fri: 9:00 AM - 6:00 PM</p>
+          <p class="small text-muted">Sat - Sun: 10:00 AM - 4:00 PM</p>
+        </div>
+      </div>
+
+      <hr class="my-4 bg-secondary">
+
+      <div class="row">
+        <div class="col-12 text-center">
+          <p class="mb-0 small text-muted">© 2026 ChaloChale Travel App. All rights reserved. | Designed with <i class="bi bi-heart-fill text-danger"></i> by ChaloChale Team</p>
+        </div>
       </div>
     </div>
-  </div>
+  </footer>
 
+  <button class="back-to-top" id="backToTop">
+    <i class="bi bi-chevron-up"></i>
+  </button>
 
-  <footer class="bg-dark text-white text-center py-3">
-  <p class="mb-0">© 2026 ChaloChale Travel App | Designed with Bootstrap</p>
-</footer>
-
-
+  <script src="js/script.js"></script>
 </body>
 
 </html>
